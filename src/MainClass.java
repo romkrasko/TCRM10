@@ -43,6 +43,9 @@ public class MainClass {
         dog1.speak();
         dog1.info();
 
+        owner.acquiringPet(dog1);
+        owner.acquiringPet("namePet");
+
 
     }
 }
