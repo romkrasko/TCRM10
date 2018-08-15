@@ -24,13 +24,10 @@ public class MainClass {
         cats[3].speak();
         cats[4].info();
 
-        Person owner = new Person("personName");
-        Person owner1 = new Person("Roman");
+        Person owner = new Person("Roman");
 
-        Pet pet = new Pet("speakPet",12,"Johny",owner);
-        pet.speak();
 
-        cats[2].takeAwayFromCafe(owner1);
+        cats[2].takeAwayFromCafe(owner);
         System.out.println(cats[2].getOwner());
 
         Lynx lynx = new Lynx();
@@ -42,7 +39,7 @@ public class MainClass {
         Dog dog = new Dog();
         dog.speak();
         dog.info();
-        Dog dog1 = new Dog(owner1);
+        Dog dog1 = new Dog(owner);
         dog1.speak();
         dog1.info();
 
