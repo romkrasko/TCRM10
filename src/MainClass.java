@@ -10,22 +10,10 @@ public class MainClass {
         cats[5] = new Cat("Marusya","Male","Britain",true);
         CatCafe cafe = new CatCafe("address1",cats,"13:00-16:00",cats.length);
 
-
-        /*System.out.println(cats[0].isInCafe());
-        cats[0].setInCafe(false);
-        System.out.println(cats[0].isInCafe());
-        cats[0].setInCafe(true);
-        System.out.println(cats[0].isInCafe());
-        cats[0].takeAwayFromCafe(owner);
-        System.out.println(cats[0].isInCafe());
-        cafe.printCatsInCafe("Britain");*/
-
-
         cats[3].speak();
         cats[4].info();
 
         Person owner = new Person("Roman");
-
 
         cats[2].takeAwayFromCafe(owner);
         System.out.println(cats[2].getOwner());

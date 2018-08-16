@@ -1,4 +1,5 @@
 public abstract class Pet implements Animal {
+
     protected int age;
     public String name;
     private Person owner;

@@ -7,6 +7,7 @@ public class Lynx implements Animal {
         this.speakWord = speakWord;
         this.type = type;
     }
+
     public Lynx() {
         this.type = "Lynx";
     }
